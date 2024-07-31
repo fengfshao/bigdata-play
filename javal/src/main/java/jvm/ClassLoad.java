@@ -13,6 +13,8 @@ package jvm;
  *      1-4又叫连接，解析阶段可以发生在初始化之后
  *
  */
+
+// https://stackoverflow.com/questions/15250656/how-is-the-classloader-for-a-class-chosen
 public class ClassLoad {
     public static void main(String[] args) throws InterruptedException {
         System.out.println(args.length);
